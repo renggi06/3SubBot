@@ -32,19 +32,19 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
-HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", " storykomik")
-HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "a7daab5a-7a59-484d-b078-34b60cb5be2b")
+HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", " ")
+HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", " ")
 HEROKU_URL = fetch_heroku_git_url(HEROKU_API_KEY, HEROKU_APP_NAME)
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "")
 
 #Database 
-MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://group:group@cluster0.eycjx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+MONGO_URL = os.environ.get("MONGO_URL", " ")
 
-BITLY_KEY = os.environ.get("BITLY_KEY", "d44dd0ba235e57d7ab935030c0e1c390c5ea71c0 ")
+BITLY_KEY = os.environ.get("BITLY_KEY", " ")
 
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "AnathemaVibesBot ")
+BOT_USERNAME = os.environ.get("BOT_USERNAME", " ")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
@@ -52,7 +52,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 #force sub channel id, if you want enable force sub
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
 
-VIP = int(os.environ.get("VIP", "1783910895"))
+VIP = int(os.environ.get("VIP", "1972014814"))
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_VIRAL = int(os.environ.get("FORCE_SUB_VIRAL", "0"))
@@ -62,24 +62,24 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #start image
 START_IMG = os.environ.get("START_IMG", " ") 
 #url group
-URL_GROUP = os.environ.get("URL_GROUP", "https://t.me/EXO_GroupHELP") 
+URL_GROUP = os.environ.get("URL_GROUP", " ") 
 #CAPTION
-CPT_SATU= os.environ.get("CPT_SATU", "👙 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙍𝘼𝙏𝙀") 
+CPT_SATU= os.environ.get("CPT_SATU", " ") 
 #CAPTION
-CPT_DUA= os.environ.get("CPT_DUA", "✅ 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝘼𝙎𝙐𝙋𝘼𝙉") 
+CPT_DUA= os.environ.get("CPT_DUA", " ") 
 #CAPTION
 #OWNER ID
-DEVELOPER = int(os.environ.get("DEVELOPER", "1978038952"))
+DEVELOPER = int(os.environ.get("DEVELOPER", "1972014814"))
 
-CPT_TIGA= os.environ.get("CPT_TIGA", "🔞 𝙅𝙊𝙄𝙉 𝙂𝙍𝙊𝙐𝙋 𝘾𝙝𝙖𝙩") 
+CPT_TIGA= os.environ.get("CPT_TIGA", " ") 
 #CAPTION
-CPT_EMPAT= os.environ.get("CPT_EMPAT", "🛠 𝘼𝙪𝙩𝙝𝙤𝙧 𝘽𝙤𝙩") 
+CPT_EMPAT= os.environ.get("CPT_EMPAT", " ") 
 #url group
-TOTAL_BOT = os.environ.get("TOTAL_BOT", "")
-NEW_UPDATE = os.environ.get("NEW_UPDATE", "")
-URL_VIRAL = os.environ.get("URL_VIRAL", "https://t.me/Exo_URobot") 
+TOTAL_BOT = os.environ.get("TOTAL_BOT", " ")
+NEW_UPDATE = os.environ.get("NEW_UPDATE", " ")
+URL_VIRAL = os.environ.get("URL_VIRAL", " ") 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "𝙷𝚎𝚕𝚕𝚘 {first}\n\nSaya adalah Bot khusus yang telah di Program oleh @Exo_URobot.")
+START_MSG = os.environ.get("START_MESSAGE", "𝙷𝚎𝚕𝚕𝚘 {first}\n\nSaya adalah Bot khusus yang telah di Program oleh @imgoriorio.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -94,7 +94,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝙷𝚎𝚕𝚕𝚘 {first}\n\
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 #Set true if you want Disable your Channel Posts Share button
-if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True':
+if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'False':
     DISABLE_CHANNEL_BUTTON = True
 else:
     DISABLE_CHANNEL_BUTTON = False
