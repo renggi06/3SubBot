@@ -11,67 +11,67 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "value": "2117009554:AAFm9jTbIH3Bfjy_WzgF8XfbkrPkwIyja7I"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1978038952"
+      "value": "1972014814"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": "16946996"
+      "value": "5527675"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": "f2778b0b9d4620e1f83cfecd5aeeae52"
+      "value": "34547f67c544abd09ddf184e67b6bf1d"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-1001585500711"
+      "value": "-1001470454782"
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "-1001219615847"
+      "value": "-1001330279323"
     },
     "FORCE_SUB_GROUP":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "-1001348778768"
+      "value": "-1001728051526"
     },
     "FORCE_SUB_VIRAL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "-1001440462089"
+      "value": "-1001561925070"
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "Hai {}, Gua Bot Negative Space\n\nFungsi Nya gua hadir di Telegram untuk membagi file asupan buat Lo para manusia Yang lagi sange, gua bot inget gabisa puasin nafsu Lo bego\n\n𝗧𝗲𝗸𝗮𝗻 /help 𝘂𝗻𝘁𝘂𝗸 𝗺𝗲𝗹𝗶𝗵𝗮𝘁 𝗯𝗮𝗻𝘁𝘂𝗮𝗻."
+      "value": "Halo Cuk {} Bot Ini Berfungsi untuk Menyimpan File dan Membagikannya dalam Bentuk Link. Untuk Mengakses File Tinggal Klik Link yang dibagikan dari Bot ini Lalu Klik Start. ✨ Bot ini Dibuat oleh : @imgoriorio 𝗧𝗲𝗸𝗮𝗻 /help 𝘂𝗻𝘁𝘂𝗸 𝗺𝗲𝗹𝗶𝗵𝗮𝘁 𝗯𝗮𝗻𝘁𝘂𝗮𝗻."
     },
       "CPT_SATU": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "Channel RATE"    
+      "value": "𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝙐𝙏𝘼𝙈𝘼"    
    },
       "CPT_DUA": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "Channel ASUPAN"    
+      "value": "𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝙍𝘼𝙏𝙀"    
    },
    "CPT_TIGA": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "🔞 GROUP CHAT"    
+      "value": "𝙂𝙍𝙐𝙋 𝘾𝙃𝘼𝙏"    
    },
       "START_IMG": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "https://media4.giphy.com/media/xT9IgA5X6o072yGhPi/giphy.gif"    
+      "value": "https://telegra.ph/file/214f350a04403e22fdd1f.png"    
    }, 
     "URL_VIRAL": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "https://t.me/Exo_URobot"    
+      "value": "https://t.me/newzoneid1"    
     }, 
     "URL_GROUP": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "https://t.me/EXO_GroupHELP"    
+      "value": "https://t.me/newzoneidfams"    
     }, 
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "1054834409 1229638814 1606695293",
+      "value": "1783553016 1972014814",
       "required": false
     }
   },
