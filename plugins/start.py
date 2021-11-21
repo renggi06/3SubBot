@@ -101,7 +101,7 @@ async def start_command(client: Client, message: Message):
                 ],
 
                 [
-                   InlineKeyboardButton("🛠 𝘼𝙪𝙩𝙝𝙤𝙧 𝘽𝙤𝙩", url=f"https://t.me/Exo_URobot")
+                   InlineKeyboardButton("𝙊𝙒𝙉𝙀𝙍 𝘽𝙊𝙏T", url=f"https://t.me/imgoriorio")
                 ]
                 
             ]
@@ -127,7 +127,7 @@ async def not_join(client: Client, message: Message):
         text = text + f" <b>Setelah itu silahkan mulai ulang tekan tulisan biru ini <a href='https://t.me/{client.username}?start={argument}'>Ulang</a></b>"
     except ValueError:
         pass
-    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔞 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙐𝙩𝙖𝙢𝙖", url = client.invitelink), InlineKeyboardButton("💋 𝙂𝙧𝙤𝙪𝙥 𝙎𝙖𝙣𝙜𝙚", url= URL_GROUP)], [InlineKeyboardButton("🔞 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙑𝙄𝙍𝘼𝙇", url = URL_VIRAL) ]])
+    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔞 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙐𝙩𝙖𝙢𝙖", url = client.invitelink), [InlineKeyboardButton("🔞 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙑𝙄𝙍𝘼𝙇", url = URL_VIRAL), InlineKeyboardButton("💋 𝙂𝙧𝙤𝙪𝙥 𝙎𝙖𝙣𝙜𝙚", url= URL_GROUP)] ]])
     await message.reply(
         text = text,
         reply_markup = reply_markup,
