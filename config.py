@@ -94,7 +94,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "𝙷𝚎𝚕𝚕𝚘 {first}\n\
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 #Set true if you want Disable your Channel Posts Share button
-if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'False':
+if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True':
     DISABLE_CHANNEL_BUTTON = True
 else:
     DISABLE_CHANNEL_BUTTON = False
