@@ -101,7 +101,7 @@ async def start_command(client: Client, message: Message):
                 ],
 
                 [
-                   InlineKeyboardButton("𝙊𝙒𝙉𝙀𝙍 𝘽𝙊𝙏T", url=f"https://t.me/imgoriorio")
+                   InlineKeyboardButton("𝙊𝙒𝙉𝙀𝙍 𝘽𝙊𝙏", url=f"https://t.me/imgoriorio")
                 ]
                 
             ]
@@ -120,14 +120,14 @@ async def start_command(client: Client, message: Message):
 
 @Bot.on_message(filters.command('start') & filters.private)
 async def not_join(client: Client, message: Message):
-    text = "<b>Hai Untuk menggunakan bot ini Lo wajib bergabung pada channel (porn/viral) dan group dibawah ini</b>"
+    text = "<b>Hai Untuk Dapat Mengakses File Bot ini Kamu Wajib Bergabung Pada Channel dan Group Dibawah ini</b>"
     message_text = message.text
     try:
         command, argument = message_text.split()
-        text = text + f" <b>Setelah itu silahkan mulai ulang tekan tulisan biru ini <a href='https://t.me/{client.username}?start={argument}'>Ulang</a></b>"
+        text = text + f" <b>Setelah itu silahkan mulai ulang tekan tulisan biru ini <a href='https://t.me/{client.username}?start={argument}'>Ulangi</a></b>"
     except ValueError:
         pass
-    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔞 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙐𝙩𝙖𝙢𝙖", url = client.invitelink), InlineKeyboardButton("💋 𝙂𝙧𝙤𝙪𝙥 𝙎𝙖𝙣𝙜𝙚", url= URL_GROUP), [InlineKeyboardButton("🔞 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 𝙑𝙄𝙍𝘼𝙇", url = URL_VIRAL)] ]])
+    reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝙐𝙏𝘼𝙈𝘼", url = client.invitelink), InlineKeyboardButton("𝙂𝙍𝙐𝙋 𝘾𝙃𝘼𝙏", url= URL_GROUP), [InlineKeyboardButton("𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝙍𝘼𝙏𝙀", url = URL_VIRAL)] ]])
     await message.reply(
         text = text,
         reply_markup = reply_markup,
