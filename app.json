@@ -1,0 +1,97 @@
+{
+  "name": "TG File Sharing Bot",
+  "description": "file sharing bot store posts and it can access by special links",
+  "keywords": [
+    "telegram",
+    "file",
+    "sharing"
+  ],
+  "repository": "https://github.com/CodeXBotz/File-Sharing-Bot",
+  "logo": "https://telegra.ph/file/14d3013fda21281c54b61.jpg",
+  "env": {
+    "TG_BOT_TOKEN": {
+      "description": "Your Bot token, Get it from @Botfather",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "An integer of consisting of your owner ID",
+      "value": "1978038952"
+    },
+    "APP_ID":{
+      "description": "your app id, take it from my.telegram.org",
+      "value": "16946996"
+    },
+    "API_HASH":{
+      "description": "your api hash, take it from my.telegram.org",
+      "value": "f2778b0b9d4620e1f83cfecd5aeeae52"
+    },
+    "CHANNEL_ID":{
+      "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
+      "value": "-1001585500711"
+    },
+    "FORCE_SUB_CHANNEL":{
+      "description": "id of the channel or group, if you want enable force sub feature else put 0",
+      "value": "-1001219615847"
+    },
+    "FORCE_SUB_GROUP":{
+      "description": "id of the channel or group, if you want enable force sub feature else put 0",
+      "value": "-1001348778768"
+    },
+    "FORCE_SUB_VIRAL":{
+      "description": "id of the channel or group, if you want enable force sub feature else put 0",
+      "value": "-1001440462089"
+    },
+    "START_MESSAGE": {
+      "description": "Optional: start message of bot, use HTML parsemode format",
+      "value": "Hai {}, Gua Bot Negative Space\n\nFungsi Nya gua hadir di Telegram untuk membagi file asupan buat Lo para manusia Yang lagi sange, gua bot inget gabisa puasin nafsu Lo bego\n\n𝗧𝗲𝗸𝗮𝗻 /help 𝘂𝗻𝘁𝘂𝗸 𝗺𝗲𝗹𝗶𝗵𝗮𝘁 𝗯𝗮𝗻𝘁𝘂𝗮𝗻."
+    },
+      "CPT_SATU": {
+      "description": "Optional: start message of bot, use HTML parsemode format",
+      "value": "Channel RATE"    
+   },
+      "CPT_DUA": {
+      "description": "Optional: start message of bot, use HTML parsemode format",
+      "value": "Channel ASUPAN"    
+   },
+   "CPT_TIGA": {
+      "description": "Optional: start message of bot, use HTML parsemode format",
+      "value": "🔞 GROUP CHAT"    
+   },
+      "START_IMG": {
+      "description": "Optional: start message of bot, use HTML parsemode format",
+      "value": "https://media4.giphy.com/media/xT9IgA5X6o072yGhPi/giphy.gif"    
+   }, 
+    "URL_VIRAL": {
+      "description": "Optional: start message of bot, use HTML parsemode format",
+      "value": "https://t.me/Exo_URobot"    
+    }, 
+    "URL_GROUP": {
+      "description": "Optional: start message of bot, use HTML parsemode format",
+      "value": "https://t.me/EXO_GroupHELP"    
+    }, 
+    "ADMINS": {
+      "description": "A space separated list of user_ids of Admins, they can only create links",
+      "value": "1054834409 1229638814 1606695293",
+      "required": false
+    }
+  },
+  "addons": [
+    {
+    "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
